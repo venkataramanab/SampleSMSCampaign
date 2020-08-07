@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Results of Draw</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper wrapper1" style="margin-top:10px;">
+        <div style="clear:both;"></div>
+        <div class="qa" style="padding:6px 0 0;"><h2 align="center" style="font-size: 30px;">Thank you!</h2> </div>
+        <div style="border:1px solid #FC9;background:#FFC;padding:5px 10px;margin-bottom: 0px;" align="center"><strong>Results of Lucky Draw:</strong>
+            <br>You have a chance to win <span class="ben">(1)</span> One Exclusive Prize!</div>
+        <div class="inner">
+            <div style="margin-bottom:10px;">
+                <fieldset style="border:1px solid #ccc;">
+                    <legend style="padding:0 15px;font-weight:bold;font-size:medium;" align="center">Congratulations,
+                        <script>
+                            document.write(b)
+                        </script> User!</legend>
+                    <div style="padding:5px 5px 10px 15px;">
+                        <p>Your <strong><span style="color:red" ;=""><script>document.write(b + " " + m)</script> </span> phone</strong> is chosen randonmly in our lucky draw among 493,329 users! You have a chance to win one out of three gifts below!</p>
+                    </div>
+                </fieldset>
+            </div>
+            <div style="margin-bottom:10px;">
+                <fieldset style="border:1px solid #ccc;">
+                    <legend style="padding:0 15px;font-weight:bold;font-size:medium;" align="center"></legend>
+                    <div style="padding:9px 10px 10px 15px;">
+                        <p><span class="style2">ACT NOW, or your spot shall be given to the next lucky <script>document.write(b)</script> user!</span>
+                            <br>
+                            <br> <span class="question-options">You only have <span style="color:red;"><span id="mins">3</span> minutes <span id="secs">35</span> seconds <span style="display: none;" id="hsecs">35</span></span>to make your choice!</span>
+                            <br>
+                        </p>
+                    </div>
+                </fieldset>
+            </div>
+            <script>
+                setInterval('countdown()', 1000);
+                function countdown() {
+                    var mins = parseInt(document.getElementById("mins").innerHTML);
+                    var secs = parseInt(document.getElementById("hsecs").innerHTML);
+                    if (mins != 0 && secs == 0) {
+                        nmins = mins - 1;
+                        nsecs = 59;
+                    } else if (mins != 0 || secs != 0) {
+                        nmins = mins;
+                        nsecs = secs - 1;
+                    } else if (mins == 0 && secs == 0) {
+                        nmins = mins;
+                        nsecs = secs;
+                    }
+                    document.getElementById("mins").innerHTML = nmins;
+                    document.getElementById("hsecs").innerHTML = nsecs;
+                    if (nsecs < 10) nsecs = "0" + nsecs;
+                    document.getElementById("secs").innerHTML = nsecs;
+                }
+            </script>
+            <fieldset style="border:1px solid #ccc;">
+                <legend align="center" style="padding:0 15px;font-size:medium;font-weight:bold;"></legend>
+                <div style="padding:5px 20px 10px 20px;">
+                    <div style="line-height:24px;font-size:medium;padding:5px 0 10px;margin-bottom:5px;border-bottom:1px dashed #ccc;">
+                        <p>
+                            <img src="img/iphone5.jpg" style="padding-top:2px;float:left;margin-right:15px;" alt="" height="48" width="48">iPhone 5S</p>
+                        <p><span class="style1"><strong>0</strong> In Stock</span>
+                            <br>
+                        </p>
+                    </div>
+                    <div style="font-size:medium;padding:5px 0 10px;margin-bottom:5px;border-bottom:1px dashed #ccc;line-height:24px;">
+                        <p>
+                            <img src="img/ipad.jpg" style="float:left;margin-right:15px;" alt="" height="53" width="40">iPad Air</p>
+                        <p><span class="style1"><strong>0</strong> In Stock</span>
+                        </p>
+                    </div>
+                    <div style="border-bottom:1px dashed #ccc;margin-bottom:5px;line-height:24px;font-size:medium;padding:5px 0 10px;">
+                        <p>
+                            <img src="img/6.jpg" style="float:left;margin-right:15px;" alt="" height="53" width="40">iPhone 6s</p>
+                        <p><span class="style1"><strong>2</strong> In Stock</span>
+                        </p>
+                    </div>
+                </div>
+            </fieldset>
+            <div style="margin-top:10px;">
+                <fieldset style="border:1px solid #ccc;padding:10px;">
+                    <legend align="center" style="padding:0 10px; font-size:medium;font-weight:bold;">CLAIM NOW!</legend>
+                    <div style="margin-top:5px;" align="center">
+                        <a class="step2" onclick="" href="sms:1234&body=hi"><strong>Continue</strong></a>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- This landing page has been Generated using purelander.com -->
+</html>

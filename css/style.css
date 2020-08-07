@@ -1,0 +1,102 @@
+        * {
+            padding: 0;
+            margin: 0
+        }
+        body {
+            font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+            background: #cbd3e2
+        }
+        .wrapper {
+            width: 97%;
+            margin: 0 auto;
+            background: #cbd3e2;
+            border: 0px
+        }
+        h2 {
+            text-shadow: 0 1px 0 #555;
+            padding: 5px 10px 10px 5px;
+            color: #fff;
+            font-size: 20px;
+            font-size: 16px;
+            font-weight: normal;
+            background: #6281b6;
+            border-radius: 12px 12px 0 0;
+            -moz-border-radius: 12px 12px 0 0;
+            -webkit-border-radius: 12px 12px 0 0
+        }
+        .inner {
+            background: #fff;
+            padding: 8px;
+            line-height: 19px;
+            font-size: small;
+            border: 5px solid #6281b6;
+            border-top: 0;
+            border-radius: 0 0 12px 12px;
+            -moz-border-radius: 0 0 12px 12px;
+            -webkit-border-radius: 0 0 12px 10px
+        }
+        fieldset {
+            border-radius: 12px;
+            -moz-border-radius: 12;
+            -webkit-border-radius: 12px;
+            border: 1px solid #cfd7e6 !important
+        }
+        .hidden {
+            display: none
+        }
+        .comments {
+            margin: 15px auto;
+            width: 97%
+        }
+        .comments .comment {
+            font-size: small;
+            border-bottom: 1px solid #adc0e1;
+            padding: 8px 0;
+            margin-bottom: 10px;
+            min-height: 60px;
+            color: #000
+        }
+        .commentsinner {
+            background: #90A5C8;
+            padding: 8px 10px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border: 1px solid #fff;
+            color: #fff;
+            text-shadow: 0 1px 0 #555
+        }
+        .clear {
+            clear: both
+        }
+        .step2 {
+            border: 1px solid #3B6E22;
+            background-color: #69A74E;
+            background-image: -moz-linear-gradient(center top, #69A74E, #56963a);
+            text-shadow: 0 1px 0 #000;
+            padding: 8px 0;
+            color: #FFF;
+            text-decoration: none;
+            display: block;
+            font-size: medium;
+            border-radius: 20px;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px
+        }
+        .qa {
+            font-weight: bold;
+            font-size: 24px
+        }
+        .ben {
+            color: #F00
+        }
+        .style2 {
+            color: #3a5998;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 16px
+        }
+        .style1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px
+        }
